@@ -1,0 +1,287 @@
+body {
+    font-family: 'Nunito', Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+    color: #2d6187;
+  }
+  
+  .piano-container {
+    padding: 50px 5px;
+  }
+  
+  .piano-button {
+    background-color: #2d6187;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 15px auto;
+    text-align: center;
+    transition: 0.4s ease-in-out;
+    width: 250px;
+  }
+  
+  .piano-button:hover {
+    background-color: #cbaf87;
+  }
+  
+  .piano-button-text {
+    padding: 10px;
+  }
+  
+  .image-mask-darken {
+    position: relative;
+  }
+  
+  .image-mask-darken:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4);
+    content: "";
+  }
+  
+  /* Header */
+  .piano-header {
+    align-items: center;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+  }
+  
+  .piano-logo-container {
+    width: 150px;
+  }
+  
+  .piano-nav {
+    width: 350px;
+  }
+  
+  .piano-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 14px;
+  }
+  
+  .piano-logo {
+    width: 170px;
+  }
+  
+  .piano-nav-element {
+    cursor: pointer;
+    padding: 10px 60px;
+  }
+  
+  .piano-nav-element:last-child {
+    padding-left: 0;
+  }
+  
+  /* Kids */
+  .piano-main-photo {
+    align-items: center;
+    background-image: url("https://scontent-lhr8-2.xx.fbcdn.net/v/t1.6435-9/140852096_103065701789655_6622399585729986915_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=e3f864&_nc_ohc=ciwWYD4h3kUAX-R7-Y_&_nc_ht=scontent-lhr8-2.xx&oh=0896963bb87c396d6823603d14e21a8d&oe=60994835");
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 750px;
+  }
+ 
+  .piano-intro-content {
+    color: white;
+    position: absolute;
+    text-align: center;
+    width: 400px;
+  }
+  
+  .piano-intro-title {
+    font-size: 54px;
+  }
+  
+  .piano-intro-subtitle {
+    font-size: 16px;
+  }
+  
+  /* Middle section */
+  
+  .piano-middle {
+    align-items: center;
+    background-color: #a7c5eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  @media (min-width: 550px) {
+    .piano-middle {
+      flex-direction: row;
+    }
+  }
+  
+  .piano-middle-box {
+    border: 1px solid #a7c5eb;
+    width: 96%;
+  }
+  
+  @media (min-width: 550px) {
+    .piano-middle-box {
+      width: 48%;
+    }
+  }
+  
+  .piano-middle-content-container {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    height: 75px;
+    padding: 10px;
+    justify-content: space-around;
+  }
+  
+  .piano-middle-icon {
+    padding-right: 12px;
+  }
+  
+  .piano-middle-titles {
+    background-color: #edefed;
+    font-size: 19px;
+    padding: 12px 18px;
+    text-align: center;
+  }
+  
+  .piano-middle-content {
+    line-height: 1.4;
+    padding-right: 12px;
+  }
+
+  .middle-key-image {
+    width: 7%;
+    padding: 3px;
+}
+  
+  
+  /* Pricing */
+
+  .piano-pricing-container {
+    padding: 50px 5px;
+  }
+  
+  .piano-pricing-title {
+    font-size: 32px;
+    text-align: center;
+  }
+  
+  .piano-pricing-subtitle {
+    font-size: 16px;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .piano-three-pricing-container {
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  }
+  
+  @media (min-width: 550px) {
+    .piano-three-pricing-container {
+      flex-direction: row;
+    }
+  }
+  
+  .piano-indiv-pricing-container {
+    margin: 1%;
+    width: 98%;
+    background-color: #a7c5eb;
+  }
+  
+  @media (min-width: 550px) {
+    .piano-indiv-pricing-container {
+      margin: 1%;
+      width: 30%;
+    }
+  }
+  
+  .piano-indiv-pricing-header {
+    align-items: center;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 300px; 
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .piano-indiv-pricing-header-content {
+    position: absolute;
+  }
+  
+  .piano-indiv-pricing-title {
+    font-size: 30px;
+  }
+  
+  .piano-indiv-pricing-details {
+    background-color: #efefef;
+    border: 1px solid #a7c5eb;
+    line-height: 1.4;
+    margin: 0;
+    min-height: 50px; 
+    padding: 20px;
+  }
+  .email {
+    margin-top: 25px;
+    text-align: center;
+   
+  }
+  #text {
+    height: 20px;
+    width: 200px;
+  }
+  .submit {
+    
+      background-color: #2d6187;
+      border-radius: 3px;
+      color: white;
+      cursor: pointer;
+      font-size: 14px;
+      margin: 15px auto;
+      text-align: center;
+      transition: 0.4s ease-in-out;
+      width: 220px;
+      height: 30px;
+      border: none;
+  }
+  .submit:hover {
+    background-color: #cbaf87;
+  }
+  
+  /* Footer */
+  
+  .social-icon {
+    font-size: 22px;
+  }
+  .piano-footer {
+    align-items: center;
+    background-color: #efefef;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: center;
+    margin-top: 40px;
+    padding-top: 15px;
+  
+  }
+  
